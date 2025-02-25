@@ -33,7 +33,7 @@ export async function POST(req) {
 
     const mailOptions = {
       from: `"Lion Parcel" <${process.env.EMAIL_USER}>`,
-      to: "alipmutakin24@gmail.com",
+      to: "anggit.daniantoro@thelionparcel.com",
       subject: "📌 New Forecast Submission",
       text: `
 🏢 Corporate Name: ${corporateName}
