@@ -39,7 +39,7 @@ export default function Home() {
       if (response.ok) {
         alert("Data berhasil dikirim ke Email & WhatsApp!");
 
-        const phoneNumber = "6285772918284"; // Ganti dengan nomor tujuan
+        const phoneNumber = "6288210939280"; // Ganti dengan nomor tujuan
         const message = encodeURIComponent(
           `📌 *New Forecast*\n🏢 *Corporate:* ${formData.corporateName}\n👤 *PIC:* ${formData.picName}\n📅 *Date:* ${formData.rangeDateStart} - ${formData.rangeDateEnd}\n📊 *Forecast:* ${formData.forecast}\n🎟️ *Event:* ${formData.event}\n📝 *Desc:* ${formData.desc}`
         );
